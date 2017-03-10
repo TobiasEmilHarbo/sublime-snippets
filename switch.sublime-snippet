@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+switch(${1:expression})
+{
+	case ${2:n}:
+		${3:code block}
+		break;
+	${6:case ${4:n}:
+		${5:code block}
+		break;}
+	${8:default:
+		${7:code block}}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>switch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
